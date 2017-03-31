@@ -1,0 +1,62 @@
+.col {
+    display: inline-block;
+    height: 1000pt;
+}
+
+.left-part img {
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+}
+
+.right-part {
+    background-color: #e3e5cc;
+    width: 300pt;
+    padding-left: 10pt;
+    
+}
+
+.left-part {
+    float: left;
+    width: 200pt;
+    margin-left: 30%;
+    padding-left: 10pt;
+    background-color: #354a70;
+}
+
+.self img {
+    width: 45pt;
+    height: 45pt;
+    margin-left: 10pt;
+    margin-top: 5pt;
+}
+
+.self img,
+.self p,
+.self h3 {
+    display: inline-block;
+}
+
+.left-part .self p,
+.self h3 {
+    vertical-align: 15pt;
+}
+
+.self .github {
+    margin-top: 12pt;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 15pt;
+}
+
+.content .education {
+    width: 150pt;
+}
+
+.content #in {
+    vertical-align: 30pt;
+    padding-left: 25pt;
+}
+
