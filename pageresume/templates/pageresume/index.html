@@ -3,6 +3,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="{% static 'pageresume/css/index.css' %}">
+    <script type="text/javascript" src="{% static 'pageresume/js/jquery-3.2.0.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'pageresume/js/index.js' %}"></script>   
     <meta charset="UTF-8">
     <title>Resume</title>
     <style>
@@ -13,40 +15,22 @@
 </head>
 <body>
 
+<main class="col">
 
-<div class="col left-part">
-    <img class="photo" src="{% static 'pageresume/img/photo2.jpg' %}" alt="photo">
-    <p><h4>Никита Бойко</h4></p>
-    <p><h3>ДАТА РОЖДЕНИЯ</h3></p>
-    <p><h2>22.11.1990</h2></p>
-
-    <div class="self">
-        <img class="email" src="{% static 'pageresume/img/email.png' %}" alt="email">
-        <p class="email">boyko.nikita@gmail.com</p>
-        
-        <img class="phone" src="{% static 'pageresume/img/phone.png' %}" alt="phone">
-        <p class="phone">+38-063-470-58-17</p>    
-        
-        <img class="address" src="{% static 'pageresume/img/address.png' %}" alt="address">
-        <p class="address">г. Киев, ул. Урловская, 4</p>    
-        
-        <img class="github" src="{% static 'pageresume/img/github.png' %}" alt="github">
-        <p class="github"><a href="https://github.com/Nikita-90" target="_blank">https://github.com/Nikita-90</a></p>           
-        
+    <div id="but1" class="left-part">
+        <img class="photo" src="{% static 'pageresume/img/photo2.jpg' %}" alt="photo">
+        <h1 class="name">Имя Фамилия</h1>
+        <h1 class="birthday">Дата рождения</h1>
+        <h3 class="birthday">22.11.1990</h3>
+    
     </div>
     
-</div>
-
-<div class="col right-part">
-    <div class="self">
-        <img src="{% static 'pageresume/img/education.png' %}" alt="education">
-        <p><h3>Образование</h3></p>
-        <div class="content">
-            <p class="education">Национальный технический университет Украины "Киевский политехнический институт" (НТУУ "КПИ")</p>
-            <p id="in">Инженер электрик</p>
-        </div>
-        
+    <div class="right-part">
+    
     </div>
-</div>
+    
+</main>
+
+
 </body>
 </html>
